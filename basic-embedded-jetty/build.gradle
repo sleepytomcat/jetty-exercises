@@ -1,0 +1,8 @@
+apply plugin: 'application'
+mainClassName = 'App'
+repositories {jcenter()}
+dependencies {
+    compile 'org.eclipse.jetty.aggregate:jetty-all:9.4.9.v20180320'
+}
+mainClassName = 'App'
+
